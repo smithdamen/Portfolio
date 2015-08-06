@@ -9,6 +9,16 @@
    
    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
    <script src="https://github.com/markdalgleish/stellar.js/blob/master/jquery.stellar.min.js"></script>
+   <script src="https://github.com/patrickkunka/mixitup/blob/master/src/jquery.mixitup.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.1.1/jquery.waypoints.js"></script>
+   <script src="src/waypoints.js"></script>
+   
+   <!-- mixitup script -->
+   <script>
+        $(function(){
+            $('#mix-container').mixItUp();
+        });
+    </script>
 </head>
 
 <body>
@@ -16,7 +26,7 @@
 <div id="wrapper">
     <header>
     <!-- begin navigation section -->
-    <div id="navigation">
+    <div class="container">
         <div class="navigation-logo">
             <a href="#">
                 <img id="header-logo" src="#" alt="">
@@ -47,17 +57,27 @@
     
     <!-- begin main home section -->
     <section>
-        <div id="home-section">
-            
+        <div class="container">
+            <div id="home-section">
+                <div class="title-section">
+                    <h1>Damen M. Smith</h1>
+                    <hr>
+                    <h6>Fusce pharetra blandit nibh eget suscipit. Donec vitae.</h6>
+                </div>
+            </div>
         </div>
     </section>
     <!-- end main home section -->
     
     <!-- begin about section -->
     <section>
-        <div id="about-section">
-            <div class="title-section">
-                
+        <div class="container">
+            <div id="about-section">
+                <div class="title-section animated fadeInUp">
+                    <h3>About Me</h3>
+                    <hr>
+                    <h6>Fusce pharetra blandit nibh eget suscipit. Donec vitae.</h6>
+                </div>
             </div>
         </div>
     </section>
@@ -65,9 +85,26 @@
     
     <!-- begin portfolio section -->
     <section>
-        <div id="portfolio-section">
-            <div class="title-section">
-                
+        <div class="container">
+            <div id="portfolio-section">
+                <div class="title-section animated fadeInUp">
+                    <h3>My Work</h3>
+                    <hr>
+                    <h6>Fusce pharetra blandit nibh eget suscipit. Donec vitae.</h6>
+                </div>
+                <div class="controls">
+                    <div class="filter" data-filter="all">All</div>
+                    <div class="filter" data-filter=".category-1">Web Design</div>
+                    <div class="filter" data-filter="category-2">Graphic Design</div>
+                </div>
+                <div id="mix-container">
+                    <div class="mix category-1"  data-myorder="1"></div>
+                    <div class="mix category-1"  data-myorder="2"></div>
+                    <div class="mix category-1"  data-myorder="3"></div>
+                    <div class="mix category-1"  data-myorder="4"></div>
+                    <div class="mix category-2"  data-myorder="5"></div>
+                    <div class="mix category-2"  data-myorder="6"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -75,9 +112,13 @@
     
     <!-- begin blog section -->
     <section>
-        <div id="blog-section">
-            <div class="title-section">
-                
+        <div class="container">
+            <div id="blog-section">
+                <div class="title-section">
+                    <h3 class="animated fadeInUp">Blog Posts</h3>
+                    <hr>
+                    <h6>Fusce pharetra blandit nibh eget suscipit. Donec vitae.</h6>
+                </div>
             </div>
         </div>
     </section>
@@ -85,16 +126,20 @@
     
     <!-- begin contact section -->
     <section>
-        <div id="contact-section">
-            <div class="title-section">
-                
+        <div class="container">
+             <div id="contact-section">   
+                <div class="title-section">
+                    <h3 class="animated fadeInUp">Contact Damen</h3>
+                    <hr>
+                    <h6>Fusce pharetra blandit nibh eget suscipit. Donec vitae.</h6>
+                </div>
             </div>
         </div>
     </section>
     <!-- end contact section -->
     
     <footer>
-        <div class="footer-container">
+        <div class="container">
             <div class="footer-left">
                 &copy; 2015 Damen Smith
             </div>
