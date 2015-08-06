@@ -27,6 +27,10 @@ header {
     display: inline;
 }
 
+.navigation li a {
+    text-decoration: none;
+}
+
 #header-logo {
     border: none;
 }
