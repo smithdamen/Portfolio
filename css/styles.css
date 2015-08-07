@@ -58,8 +58,13 @@ header {
     float: left;
 }
 
+.controls {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #mix-container .mix {
-    display: inline-block;
+    display: none;
     width: 30%;
     height: 300px;
     background-color: red;
