@@ -59,8 +59,12 @@ header {
 }
 
 #mix-container .mix {
-    display: none;
+    display: inline-block;
+    width: 30%;
+    background-color: red;
 }
+
+
 
 .footer-left {
     width: 50%;
