@@ -12,6 +12,10 @@ header {
     background-color: #fff;
 }
 
+section.full-height, section.full-height .container, section.full-height #home-section {
+    height: 100%;
+}
+
 .container {
     width: 1100px;
     margin-left: auto;
