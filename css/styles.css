@@ -24,6 +24,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
     margin-left: auto;
     margin-right: auto;
     padding: 0 25px;
+    overflow: hidden;
 }
 
 .navigation-logo {
