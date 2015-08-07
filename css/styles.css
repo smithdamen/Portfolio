@@ -61,9 +61,13 @@ header {
 #mix-container .mix {
     display: inline-block;
     width: 30%;
+    height: 300px;
     background-color: red;
 }
 
+.filter {
+    display: inline;
+}
 
 
 .footer-left {
