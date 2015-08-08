@@ -85,8 +85,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
 }
 
 .controls {
-    margin-right: auto;
-    margin-left: auto;
+    text-align: center;
 }
 
 #mix-container .mix {
