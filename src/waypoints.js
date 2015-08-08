@@ -2,7 +2,7 @@
 $(document).ready(function(){
     $(".title-section").waypoint(function(){
         $(".title-section").addClass("animated fadeInUp");
-        },{
-            offset:'200'
+    },{ 
+        offset: '30%'
     });
 });
