@@ -58,9 +58,21 @@ section.full-height, section.full-height .container, section.full-height #home-s
     opacity: 1;
 }
 
+.full-height {
+    background: url('http://drive.google.com/uc?export=view&id=0B0YYPWPxRhHQMXNlZk8yaHhIaFU');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #home-section {
     position: relative;
-    background: url('http://drive.google.com/uc?export=view&id=0B0YYPWPxRhHQMXNlZk8yaHhIaFU');
+}
+
+#home-section .title-section {
+    position: relative;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .about-box {
