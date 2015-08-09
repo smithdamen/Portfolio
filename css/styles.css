@@ -74,7 +74,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
     padding-bottom: 75px;
 }
 
-.title-section.animated.fadeInUp {
+.title-section.animated {
     opacity: 1;
 }
 
@@ -83,7 +83,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
 }
 
 .full-height {
-    background: url('http://gdurl.com/3g4C');
+    background: url('http://gdurl.com/w8ZWp');
     /* images links 
         http://gdurl.com/VCP4
         http://gdurl.com/UJjs
