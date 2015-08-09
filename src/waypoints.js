@@ -9,16 +9,17 @@ $(document).ready(function(){
 
 
 //This script is from http://jsfiddle.net/harconst/4FNFW/
-function onScrollInit( items, trigger ) {
-  items.each( function() {
-    var osElement = $(this),
-        osAnimationClass = osElement.attr('data-animation'),
-        osAnimationDelay = osElement.attr('data-animation-delay');
+$(function(){
+    function onScrollInit( items, trigger ) {
+        items.each( function() {
+            var osElement = $(this),
+                osAnimationClass = osElement.attr('data-animation'),
+                osAnimationDelay = osElement.attr('data-animation-delay');
       
-        osElement.css({
-          '-webkit-animation-delay':  osAnimationDelay,
-          '-moz-animation-delay':     osAnimationDelay,
-          'animation-delay':          osAnimationDelay
+                osElement.css({
+                '-webkit-animation-delay':  osAnimationDelay,
+                '-moz-animation-delay':     osAnimationDelay,
+                'animation-delay':          osAnimationDelay
         });
 
         var osTrigger = ( trigger ) ? trigger : osElement;
@@ -33,3 +34,4 @@ function onScrollInit( items, trigger ) {
 }
 
  onScrollInit( $('.title-section') );
+});
