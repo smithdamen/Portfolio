@@ -2,13 +2,19 @@
 
 
 $(document).ready(function(){
+    var animationName="animated fadeInUp";
+    
+    $(".title-section").addClass("fade")
+    
     $(".title-section").waypoint(function(){
-        $(".title-section").addClass("animated fadeInUp");
+        $(".title-section").addClass(animationName);
     });
 });
 
 
 //This script is from http://jsfiddle.net/harconst/4FNFW/
+
+/*
 $(function(){
     function onScrollInit( items, trigger ) {
         items.each( function() {
@@ -35,3 +41,4 @@ $(function(){
 
  onScrollInit( $('.title-section') );
 });
+*/
