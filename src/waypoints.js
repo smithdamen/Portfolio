@@ -8,7 +8,7 @@ $(document).ready(function(){
     
     $(".title-section").waypoint(function(){
         $(".title-section").addClass(animationName);
-    });
+    }, { offset: '30%' });
 });
 
 
