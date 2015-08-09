@@ -51,17 +51,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
 
 .navigation li a {
     text-decoration: none;
-    color: black;
     padding: 10px 20px;
-}
-
-.navigation li a:hover {
-    color: white;
-    background-color: blue;
-}
-
-.navigation li a:active {
-    color: blue;
 }
 
 #header-logo {
@@ -74,7 +64,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
     padding-bottom: 75px;
 }
 
-.title-section.animated {
+.title-section.animated.fadeInUp {
     opacity: 1;
 }
 
@@ -83,16 +73,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
 }
 
 .full-height {
-    background: url('http://gdurl.com/w8ZWp');
-    /* images links 
-        http://gdurl.com/VCP4
-        http://gdurl.com/UJjs
-        http://gdurl.com/J8Ku
-        ** like ** http://gdurl.com/w8ZWp
-        http://gdurl.com/3g4C
-        http://drive.google.com/uc?export=view&id=0B0YYPWPxRhHQMXNlZk8yaHhIaFU
-    
-    */
+    background: url('http://drive.google.com/uc?export=view&id=0B0YYPWPxRhHQMXNlZk8yaHhIaFU');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -102,7 +83,6 @@ section.full-height, section.full-height .container, section.full-height #home-s
 }
 
 #home-section .title-section {
-    color: white;
     position: relative;
     height: 100%;
     top: 50%;
@@ -134,6 +114,10 @@ section.full-height, section.full-height .container, section.full-height #home-s
     width: 33%;
     height: 300px;
     background-color: red;
+}
+
+#mix-container div {
+    margin-bottom: 5px;
 }
 
 .filter {
