@@ -128,6 +128,23 @@ section.full-height, section.full-height .container, section.full-height #home-s
     width: 100%;
 }
 
+.contact-form, .contact-info {
+    width: 50%;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.contact-form form input, .contact-form form textarea {
+    width: 100%;
+}
+
+.contact-form form textarea {
+    height: 250px;
+}
+
+.submit input {
+    padding: 10px 20px;
+}
 
 .footer-left {
     width: 50%;
