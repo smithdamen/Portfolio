@@ -52,6 +52,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
 .title-section {
     opacity: 0;
     text-align: center;
+    padding-bottom: 75px;
 }
 
 .title-section.animated.fadeInUp {
@@ -75,6 +76,11 @@ section.full-height, section.full-height .container, section.full-height #home-s
     transform: translateY(-50%);
 }
 
+#about-section, #portfolio-section, #blog-section, #contact-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 .about-box {
     text-align: center;
 }
@@ -83,6 +89,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
     width: 50%;
     float: left;
 }
+
 
 .controls {
     text-align: center;
