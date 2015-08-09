@@ -54,6 +54,11 @@ section.full-height, section.full-height .container, section.full-height #home-s
     padding: 10px 20px;
 }
 
+.navigation li a:hover {
+    color: white;
+    background-color: blue;
+}
+
 #header-logo {
     border: none;
 }
@@ -83,6 +88,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
 }
 
 #home-section .title-section {
+    color: white;
     position: relative;
     height: 100%;
     top: 50%;
@@ -126,6 +132,10 @@ section.full-height, section.full-height .container, section.full-height #home-s
     padding: 0;
     vertical-align: middle;
     width: 100%;
+}
+
+#contact-section {
+    overflow: auto;
 }
 
 .contact-form, .contact-info {
