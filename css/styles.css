@@ -109,6 +109,10 @@ section.full-height, section.full-height .container, section.full-height #home-s
     padding-bottom: 75px;
 }
 
+.controls button {
+    padding: 10px 20px;
+}
+
 #mix-container .mix {
     display: none;
     width: 33%;
