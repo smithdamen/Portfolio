@@ -7,7 +7,7 @@ $(document).ready(function(){
     $(".title-section").addClass("fade")
     
     $(".title-section").waypoint(function(){
-        $(".toAnimate").addClass(animationName);
+        $(".title-section").addClass(animationName);
     }, { offset: '30%' });
 });
 
