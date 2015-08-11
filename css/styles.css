@@ -95,6 +95,8 @@ section.full-height, section.full-height .container, section.full-height #home-s
 .title-section hr {
     width: 40%;
     color: #7f5024;
+    border-color: #7f5024;
+    background-color: #7f5024;
 }
 
 .full-height {
@@ -117,6 +119,8 @@ section.full-height, section.full-height .container, section.full-height #home-s
 
 #home-section .title-section hr {
     color: #fff;
+    background-color: #fff;
+    border-color: #fff;
 }
 
 /* .fancy-title span {
@@ -136,7 +140,6 @@ section.full-height, section.full-height .container, section.full-height #home-s
     width: 50%;
     float: left;
 }
-
 
 .controls {
     text-align: center;
@@ -207,6 +210,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
 .submit .button {
     color: #3f3f3f;
     background-color: #d6d6d6;
+    border: none;
     width: 25%;
 }
 
@@ -220,7 +224,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
 }
 
 footer {
-    width: 100px;
+    width: 100%;
     height: 75px;
     color: #fff;
     background-color: #7f5024;
