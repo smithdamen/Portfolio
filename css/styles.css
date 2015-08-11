@@ -1,6 +1,16 @@
 /* comment */
+
+/*
+Color Scheme:
+  Background color: #fff
+  Font color: #3f3f3f
+  Accent color: #7f5024
+  Light color: #d6dd6d6
+*/
+
 html, body {
     height: 100vh;
+    color: #3f3f3f;
 }
 
 #wrapper {
@@ -50,12 +60,24 @@ section.full-height, section.full-height .container, section.full-height #home-s
 }
 
 .navigation li a {
+    color: #3f3f3f;
     text-decoration: none;
     padding: 10px 20px;
 }
 
+.navigation li a:hover {
+    color: #fff;
+    background-color: #7f5024;
+}
+
+.navigation li a:active {
+    color: #7f5024;
+}
+
 #header-logo {
     border: none;
+    margin: 0;
+    padding: 0;
 }
 
 .title-section {
@@ -84,10 +106,15 @@ section.full-height, section.full-height .container, section.full-height #home-s
 }
 
 #home-section .title-section {
+    color: #fff;
     position: relative;
     height: 100%;
     top: 50%;
     transform: translateY(-50%);
+}
+
+#home-section .title-section hr {
+    color: #fff;
 }
 
 /* .fancy-title span {
@@ -117,7 +144,17 @@ section.full-height, section.full-height .container, section.full-height #home-s
 .controls button {
     padding: 10px 20px;
     border: none;
-    /*background-color: blue;*/
+    background-color: #d6d6d6;
+}
+
+.controls button:hover {
+    color: #fff;
+    background-color: #7f5024;
+}
+
+.controls button:active {
+    color: #fff;
+    background-color: #7f5024;
 }
 
 #mix-container .mix {
@@ -165,8 +202,24 @@ section.full-height, section.full-height .container, section.full-height #home-s
     padding: 10px 20px;
 }
 
+.submit .button {
+    color: #3f3f3f;
+    background-color: #d6d6d6;
+    width: 25%;
+}
+
+.submit .button:hover {
+    color: #fff;
+    background-color: #7f5024;
+}
+
 .contact-information {
     list-style-type: none;
+}
+
+footer {
+    color: #fff;
+    background-color: #7f5024;
 }
 
 .footer-left {
