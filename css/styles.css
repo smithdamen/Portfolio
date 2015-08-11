@@ -1,3 +1,9 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
 html,
 body {
   height: 100vh;
@@ -31,6 +37,9 @@ section.full-height #home-section {
   margin-right: auto;
   padding: 0 25px;
   overflow: hidden;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
 }
 .navigation-logo {
   float: left;
@@ -52,9 +61,21 @@ section.full-height #home-section {
 .navigation li a:hover {
   color: #ffffff;
   background-color: #7f5024;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 .navigation li a:active {
   color: #7f5024;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 #header-logo {
   border: none;
@@ -75,6 +96,12 @@ section.full-height #home-section {
   color: #7f5024;
   border-color: #7f5024;
   background-color: #7f5024;
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  -webkit-opacity: 0.8;
+  opacity: 0.8;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+  filter: alpha(opacity=80);
 }
 .full-height {
   background: rgba(144, 144, 144, 0.5) url('http://gdurl.com/w8ZWp');
@@ -121,6 +148,9 @@ section.full-height #home-section {
   padding: 10px 20px;
   border: none;
   background-color: #d6d6d6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 .controls button:hover {
   color: #ffffff;
