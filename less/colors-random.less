@@ -1,0 +1,22 @@
+@c: rgb(127, 80, 36);
+
+@c-dark-1: darken(@c, 10%);
+@c-dark-2: darken(@c, 20%);
+@c-light-1: lighten(@c, 10%);
+@c-light-2: lighten(@c, 20%);
+
+@c-split-1: spin(@c, 150);
+@c-split-1-l: lighten(@c-split-1, 10%);
+@c-split-1-d: darken(@c-split-1, 10%);
+
+@c-split-2: spin(@c, 200);
+@c-split-2-l: lighten(@c-split-2, 10%);
+@c-split-2-d: darken(@c-split-2, 10%);
+
+// COLORS
+
+@bgColor: @c;
+@fontColor: @c-dark-1;
+@accentColor: @c-split-2-d;
+@lightColor: @c-light-1;
+
