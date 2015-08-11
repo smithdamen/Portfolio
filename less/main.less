@@ -28,8 +28,6 @@ header {
 }
 
 header {
-    
-    
     .container {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -57,25 +55,25 @@ section.full-height, section.full-height .container, section.full-height #home-s
 .navigation {
     float: right;
     list-style-type: none;
-}
-
-.navigation li {
-    display: inline;
-}
-
-.navigation li a {
-    color: @fontColor;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-.navigation li a:hover {
-    color: @bgColor;
-    background-color: @accentColor;
-}
-
-.navigation li a:active {
-    color: @accentColor;
+    
+    .navigation li {
+        display: inline;
+        
+       a {
+            color: @fontColor;
+            text-decoration: none;
+            padding: 10px 20px;
+            
+            &:hover {
+                color: @bgColor;
+                background-color: @accentColor;
+            }
+            
+            &:active {
+                color: @accentColor;
+            }
+        }
+    }
 }
 
 #header-logo {
@@ -84,22 +82,22 @@ section.full-height, section.full-height .container, section.full-height #home-s
     padding: 0;
 }
 
+.title-section.animated.fadeInUp {
+    opacity: 1;
+}
+
 .title-section {
     opacity: 0;
     text-align: center;
     padding-bottom: 75px;
     width: 100%;
-}
-
-.title-section.animated.fadeInUp {
-    opacity: 1;
-}
-
-.title-section hr {
-    width: 40%;
-    color: @accentColor;
-    border-color: @accentColor;
-    background-color: @accentColor;
+    
+    hr {
+        width: 40%;
+        color: @accentColor;
+        border-color: @accentColor;
+        background-color: @accentColor;
+    }
 }
 
 .full-height {
@@ -110,20 +108,20 @@ section.full-height, section.full-height .container, section.full-height #home-s
 
 #home-section {
     position: relative;
-}
-
-#home-section .title-section {
-    color: @bgColor;
-    position: relative;
-    height: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-#home-section .title-section hr {
-    color: @bgColor;
-    background-color: @bgColor;
-    border-color: @bgColor;
+    
+    .title-section {
+        color: @bgColor;
+        position: relative;
+        height: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        
+        hr {
+            color: @bgColor;
+            background-color: @bgColor;
+            border-color: @bgColor;
+        }
+    }
 }
 
 /* .fancy-title span {
@@ -147,33 +145,33 @@ section.full-height, section.full-height .container, section.full-height #home-s
 .controls {
     text-align: center;
     padding-bottom: 75px;
+    
+    button {
+        padding: 10px 20px;
+        border: none;
+        background-color: @lightColor;
+        
+        &:hover {
+            color: @bgColor;
+            background-color: @accentColor;
+        }
+        &:active {
+            color: @bgColor;
+            background-color: @accentColor;
+        }
+    }
 }
 
-.controls button {
-    padding: 10px 20px;
-    border: none;
-    background-color: @lightColor;
-}
-
-.controls button:hover {
-    color: @bgColor;
-    background-color: @accentColor;
-}
-
-.controls button:active {
-    color: @bgColor;
-    background-color: @accentColor;
-}
-
-#mix-container .mix {
-    display: none;
-    width: 33%;
-    height: 300px;
-    background-color: red;
-}
-
-#mix-container div {
-    margin-bottom: 5px;
+#mix-container {
+    .mix {
+        display: none;
+        width: 33%;
+        height: 300px;
+        background-color: red;
+    }
+    div {
+        margin-bottom: 5px;
+    }
 }
 
 .filter {
@@ -206,20 +204,21 @@ section.full-height, section.full-height .container, section.full-height #home-s
     height: 250px;
 }
 
-.submit input {
-    padding: 10px 20px;
-}
-
-.submit .button {
-    color: @fontColor;
-    background-color: @lightColor;
-    border: none;
-    width: 25%;
-}
-
-.submit .button:hover {
-    color: #fff;
-    background-color: @accentColor;
+.submit {
+    input {
+        padding: 10px 20px;
+    }
+    .button {
+        color: @fontColor;
+        background-color: @lightColor;
+        border: none;
+        width: 25%;
+        
+        &:hover {
+            color: @bgColor;
+            background-color: @accentColor;
+        }
+    }
 }
 
 .contact-information {
@@ -231,14 +230,14 @@ footer {
     height: 75px;
     color: @bgColor;
     background-color: @accentColor;
-}
-
-.footer-left {
-    width: 50%;
-    float: left;
-}
-
-.footer-right {
-    width: 50%;
-    float: right;
+    
+    .footer-left {
+        width: 50%;
+        float: left;
+    }
+    
+    .footer-right {
+        width: 50%;
+        float: right;
+    }
 }
