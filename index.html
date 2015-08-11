@@ -12,12 +12,24 @@
    <script src="src/jquery.mixitup.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/3.1.1/jquery.waypoints.js"></script>
    <script src="src/waypoints.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
    <!-- mixitup script -->
    <script>
         $(function(){
             $('#mix-container').mixItUp();
         });
+    </script>
+    <!-- lettering script -->
+    <script>
+        $(document).ready(function() {
+            $(".fancy_title").lettering();
+        });
+    </script>
+    <!-- fittext script -->
+    <script>
+        jQuery("#responsive_headline").fitText();
     </script>
 </head>
 
@@ -61,7 +73,7 @@
             <div id="home-section">
                 <div class="title-section" data-animation="fadeInUp" data-animation-delay="0s">
                     <!--<div class="toAnimate">-->
-                        <h1>Damen M. Smith</h1>
+                        <h1 id="responsive_headline" class="fancy-title">Damen M. Smith</h1>
                         <hr>
                         <h6>Fusce pharetra blandit nibh eget suscipit. Donec vitae.</h6>
                     <!--</div>-->
