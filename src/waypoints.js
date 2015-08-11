@@ -17,8 +17,17 @@ $(document).ready(function(){
     $('#main-title').waypoint(function() {
         $('#main-title').addClass(animationName);
     });
-    $('#about-title, #portfolio-title, #blog-title, #contact-title').waypoint(function() {
-        $('#about-title, #portfolio-title, #blog-title, #contact-title').addClass(animationName);
+    $('#about-title').waypoint(function() {
+        $('#about-title').addClass(animationName);
+    } , { offset : '30%' });
+    $('#portfolio-title').waypoint(function() {
+        $('#portfolio-title').addClass(animationName);
+    } , { offset : '30%' });
+    $('#blog-title').waypoint(function() {
+        $('#blog-title').addClass(animationName);
+    } , { offset : '30%' });
+    $('#contact-title').waypoint(function() {
+        $('#contact-title').addClass(animationName);
     } , { offset : '30%' });
 });
 
