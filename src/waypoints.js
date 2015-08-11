@@ -17,10 +17,9 @@ $(document).ready(function(){
     $('#main-title').waypoint(function() {
         $('#main-title').addClass(animationName);
     });
-    $('#about-title', '#portfolio-title', '#blog-title', '#contact-title').waypoint(function() {
-        $('#about-title', '#portfolio-title', '#blog-title', '#contact-title'),addClass(animationName);
-    });
-    // , { offset : '30%' });
+    $('#about-title, #portfolio-title, #blog-title, #contact-title').waypoint(function() {
+        $('#about-title, #portfolio-title, #blog-title, #contact-title'),addClass(animationName);
+    } , { offset : '30%' });
 });
 
 
