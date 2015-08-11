@@ -12,7 +12,7 @@
 // });
 
 $(document).ready(function(){
-    var animationName="animate fadeInUp";
+    var animationName="animated fadeInUp";
     
     $('#main-title').waypoint(function() {
         $('#main-title').addClass(animationName);
