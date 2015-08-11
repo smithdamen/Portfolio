@@ -1,241 +1,197 @@
-/* comment */
-
-/*
-Color Scheme:
-  Background color: #fff
-  Font color: #3f3f3f
-  Accent color: #7f5024
-  Light color: #d6dd6d6
-*/
-
-html, body {
-    height: 100vh;
-    color: #3f3f3f;
+html,
+body {
+  height: 100vh;
+  color: #3f3f3f;
 }
-
 #wrapper {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-
 header {
-    width: 100%;
-    height: 75px;
-    background-color: #fff;
-    position: fixed;
-    top: 0;
-    z-index: 9998;
-    border-bottom: 1px solid #3f3f3f;
+  width: 100%;
+  height: 75px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 9998;
+  border-bottom: 1px solid #3f3f3f;
 }
-
 header .container {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
-section.full-height, section.full-height .container, section.full-height #home-section {
-    height: 100%;
+section.full-height,
+section.full-height .container,
+section.full-height #home-section {
+  height: 100%;
 }
-
 .container {
-    width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 25px;
-    overflow: hidden;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 25px;
+  overflow: hidden;
 }
-
 .navigation-logo {
-    float: left;
-    vertical-align: middle;
-    height: 100%;
+  float: left;
+  vertical-align: middle;
+  height: 100%;
 }
-
 .navigation {
-    float: right;
-    list-style-type: none;
+  float: right;
+  list-style-type: none;
 }
-
 .navigation li {
-    display: inline;
+  display: inline;
 }
-
 .navigation li a {
-    color: #3f3f3f;
-    text-decoration: none;
-    padding: 10px 20px;
+  color: #3f3f3f;
+  text-decoration: none;
+  padding: 10px 20px;
 }
-
 .navigation li a:hover {
-    color: #fff;
-    background-color: #7f5024;
+  color: #fff;
+  background-color: #7f5024;
 }
-
 .navigation li a:active {
-    color: #7f5024;
+  color: #7f5024;
 }
-
 #header-logo {
-    border: none;
-    margin: 0;
-    padding: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
-
 .title-section {
-    opacity: 0;
-    text-align: center;
-    padding-bottom: 75px;
-    width: 100%;
+  opacity: 0;
+  text-align: center;
+  padding-bottom: 75px;
+  width: 100%;
 }
-
 .title-section.animated.fadeInUp {
-    opacity: 1;
+  opacity: 1;
 }
-
 .title-section hr {
-    width: 40%;
-    color: #7f5024;
-    border-color: #7f5024;
-    background-color: #7f5024;
+  width: 40%;
+  color: #7f5024;
+  border-color: #7f5024;
+  background-color: #7f5024;
 }
-
 .full-height {
-    background: rgba(144, 144, 144, 0.5) url('http://gdurl.com/w8ZWp');
-    background-repeat: no-repeat;
-    background-position: center;
+  background: rgba(144, 144, 144, 0.5) url('http://gdurl.com/w8ZWp');
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 #home-section {
-    position: relative;
+  position: relative;
 }
-
 #home-section .title-section {
-    color: #fff;
-    position: relative;
-    height: 100%;
-    top: 50%;
-    transform: translateY(-50%);
+  color: #fff;
+  position: relative;
+  height: 100%;
+  top: 50%;
+  transform: translateY(-50%);
 }
-
 #home-section .title-section hr {
-    color: #fff;
-    background-color: #fff;
-    border-color: #fff;
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
 }
-
 /* .fancy-title span {
     
 }*/
-
-#about-section, #portfolio-section, #blog-section, #contact-section {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
-.about-box {
-    text-align: center;
-}
-
-.about-post {
-    width: 50%;
-    float: left;
-}
-
-.controls {
-    text-align: center;
-    padding-bottom: 75px;
-}
-
-.controls button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #d6d6d6;
-}
-
-.controls button:hover {
-    color: #fff;
-    background-color: #7f5024;
-}
-
-.controls button:active {
-    color: #fff;
-    background-color: #7f5024;
-}
-
-#mix-container .mix {
-    display: none;
-    width: 33%;
-    height: 300px;
-    background-color: red;
-}
-
-#mix-container div {
-    margin-bottom: 5px;
-}
-
-.filter {
-    display: inline;
-}
-
-.portfolio-image {
-    border: none;
-    margin: 0;
-    padding: 0;
-    vertical-align: middle;
-    width: 100%;
-}
-
+#about-section,
+#portfolio-section,
+#blog-section,
 #contact-section {
-    overflow: auto;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
-
-.contact-form, .contact-info {
-    width: 47%;
-    padding: 0 15px;
-    float: left;
+.about-box {
+  text-align: center;
 }
-
-.contact-form form input, .contact-form form textarea {
-    width: 100%;
+.about-post {
+  width: 50%;
+  float: left;
 }
-
+.controls {
+  text-align: center;
+  padding-bottom: 75px;
+}
+.controls button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #d6d6d6;
+}
+.controls button:hover {
+  color: #fff;
+  background-color: #7f5024;
+}
+.controls button:active {
+  color: #fff;
+  background-color: #7f5024;
+}
+#mix-container .mix {
+  display: none;
+  width: 33%;
+  height: 300px;
+  background-color: red;
+}
+#mix-container div {
+  margin-bottom: 5px;
+}
+.filter {
+  display: inline;
+}
+.portfolio-image {
+  border: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  width: 100%;
+}
+#contact-section {
+  overflow: auto;
+}
+.contact-form,
+.contact-info {
+  width: 47%;
+  padding: 0 15px;
+  float: left;
+}
+.contact-form form input,
 .contact-form form textarea {
-    height: 250px;
+  width: 100%;
 }
-
+.contact-form form textarea {
+  height: 250px;
+}
 .submit input {
-    padding: 10px 20px;
+  padding: 10px 20px;
 }
-
 .submit .button {
-    color: #3f3f3f;
-    background-color: #d6d6d6;
-    border: none;
-    width: 25%;
+  color: #3f3f3f;
+  background-color: #d6d6d6;
+  border: none;
+  width: 25%;
 }
-
 .submit .button:hover {
-    color: #fff;
-    background-color: #7f5024;
+  color: #fff;
+  background-color: #7f5024;
 }
-
 .contact-information {
-    list-style-type: none;
+  list-style-type: none;
 }
-
 footer {
-    width: 100%;
-    height: 75px;
-    color: #fff;
-    background-color: #7f5024;
+  width: 100%;
+  height: 75px;
+  color: #fff;
+  background-color: #7f5024;
 }
-
 .footer-left {
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
-
 .footer-right {
-    width: 50%;
-    float: right;
+  width: 50%;
+  float: right;
 }

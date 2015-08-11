@@ -1,14 +1,23 @@
 //This script is for custom animations on title sections
 
 
+// $(document).ready(function(){
+//     var animationName="animated fadeInUp";
+    
+//     $(".title-section").addClass("fade")
+    
+//     $(".title-section").waypoint(function(){
+//         $(".title-section").addClass(animationName);
+//     }, { offset: '30%' });
+// });
+
 $(document).ready(function(){
-    var animationName="animated fadeInUp";
-    
-    $(".title-section").addClass("fade")
-    
-    $(".title-section").waypoint(function(){
-        $(".title-section").addClass(animationName);
-    }, { offset: '30%' });
+    $('#main-title').waypoint(function() {
+        $('#main-title').addClass('fadeInLeft');
+    });
+    $('#about-title', '#portfolio-title', '#blog-title', '#contact-title').waypoint(function() {
+        $('#about-title', '#portfolio-title', '#blog-title', '#contact-title'),addClass('fadeInLeft');
+    }, { offset : '30%' });
 });
 
 
