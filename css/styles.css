@@ -25,6 +25,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 9998;
+    border-bottom: 1px solid #3f3f3f;
 }
 
 header .container {
@@ -219,6 +220,8 @@ section.full-height, section.full-height .container, section.full-height #home-s
 }
 
 footer {
+    width: 100px;
+    height: 75px;
     color: #fff;
     background-color: #7f5024;
 }
