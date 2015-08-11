@@ -41,19 +41,19 @@ section.full-height #home-section {
   float: right;
   list-style-type: none;
 }
-.navigation .navigation li {
+.navigation li {
   display: inline;
 }
-.navigation .navigation li a {
+.navigation li a {
   color: #3f3f3f;
   text-decoration: none;
   padding: 10px 20px;
 }
-.navigation .navigation li a:hover {
+.navigation li a:hover {
   color: #ffffff;
   background-color: #7f5024;
 }
-.navigation .navigation li a:active {
+.navigation li a:active {
   color: #7f5024;
 }
 #header-logo {
