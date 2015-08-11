@@ -1,5 +1,6 @@
 //imported styles
 @import "variables";
+@import "elements";
 
 //alternate color schemes
 //@import "colors-2";
@@ -46,6 +47,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
     margin-right: auto;
     padding: 0 25px;
     overflow: hidden;
+    .inner-shadow(0, 1px, 2px, 0.4);
 }
 
 .navigation-logo {
@@ -69,10 +71,14 @@ section.full-height, section.full-height .container, section.full-height #home-s
             &:hover {
                 color: @bgColor;
                 background-color: @accentColor;
+                .drop-shadow(0, 1px, 2px, 0.2);
+                .rounded(5px);
             }
             
             &:active {
                 color: @accentColor;
+                .drop-shadow(0, 1px, 2px, 0.2);
+                .rounded(5px);
             }
         }
     }
@@ -99,6 +105,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
         color: @accentColor;
         border-color: @accentColor;
         background-color: @accentColor;
+        .opacity(0.8);
     }
 }
 
@@ -152,6 +159,7 @@ section.full-height, section.full-height .container, section.full-height #home-s
         padding: 10px 20px;
         border: none;
         background-color: @lightColor;
+        .rounded(5px);
         
         &:hover {
             color: @bgColor;
