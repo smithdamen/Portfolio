@@ -15,6 +15,7 @@
     "fitvids": "~1.1.0",
     "letteringjs": "https://github.com/davatron5000/Lettering.js.git#~0.7.0",
     "fittext": "*",
-    "FitText.js": "https://github.com/davatron5000/FitText.js.git#~1.2.0"
+    "FitText.js": "https://github.com/davatron5000/FitText.js.git#~1.2.0",
+    "jquery.scrollTo": "~2.1.1"
   }
 }

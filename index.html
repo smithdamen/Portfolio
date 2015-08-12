@@ -16,6 +16,17 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.1/jquery.scrollTo.min.js"></script>
+   <!-- scrollTo script -->
+   <script>
+       $(document).ready(function(){
+           $('a[href=^"#"]').click(function(e){
+                e.preventDefault();
+                // console.log(this.hash);
+                $(window).stop(true).scrollTo(this.hash, {duration:1000, interrupt:true});
+           });
+       });
+   </script>
    <!-- stellar script -->
    <script>
        $('.full-height').stellar();
