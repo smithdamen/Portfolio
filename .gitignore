@@ -1,1 +1,4 @@
 /vendors
+.gitignore
+/node_modules
+/install
