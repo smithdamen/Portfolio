@@ -149,6 +149,32 @@ section.full-height #home-section {
   vertical-align: middle;
   width: 100%;
 }
+.grid {
+  max-width: 1100px;
+  position: relative;
+}
+.grid .grid-item {
+  width: 50%;
+}
+.grid .column-sizer {
+  width: 50%;
+}
+.grid .grid-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.grid .grid-item img {
+  display: block;
+  max-width: 100%;
+}
+.grid .width-2 {
+  width: 100%;
+}
 #contact-section {
   overflow: auto;
 }
