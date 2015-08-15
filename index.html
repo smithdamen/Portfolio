@@ -18,6 +18,7 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.1/jquery.scrollTo.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
    <!-- scrollTo script w/ easing included-->
    <script>
        $(document).ready(function(){
@@ -48,6 +49,18 @@
     <script>
         $(document).ready(function() {
             $("#responsive_headline").fitText();
+        });
+    </script>
+    <!-- masonry script -->
+    <script>
+        $(document).read(function(){
+            var $grid = $('.grid').imagesLoaded(function(){
+                $grid.masonry({
+                    itemSelector: '.grid-item',
+                    percentPosition: true,
+                    columnWidth: '.column-sizer'
+                });
+            });
         });
     </script>
 </head>
@@ -187,6 +200,83 @@
                         <hr>
                         <h6>Fusce pharetra blandit nibh eget suscipit. Donec vitae.</h6>
                     <!--</div>-->
+                </div>
+                <!-- begin masonry section -->
+                <div class="grid">
+                    ::before
+                    <div class="column-sizer"></div>
+                    <!-- 2 columns -->
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item width-2">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item width-2">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    <div class="grid-item">
+                        <a href="#">
+                            <img src="#">
+                        </a>
+                    </div>
+                    ::after
                 </div>
             </div>
         </div>
