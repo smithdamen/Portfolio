@@ -153,6 +153,10 @@ section.full-height #home-section {
   max-width: 1100px;
   position: relative;
 }
+.grid:after {
+  clear: both;
+  content: '';
+}
 .grid .grid-item {
   width: 50%;
 }
@@ -173,6 +177,9 @@ section.full-height #home-section {
   max-width: 100%;
 }
 .grid .width-2 {
+  width: 100%;
+}
+.masonry-container .container {
   width: 100%;
 }
 #contact-section {
