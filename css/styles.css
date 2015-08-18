@@ -150,7 +150,7 @@ section.full-height #home-section {
   width: 100%;
 }
 .grid {
-  max-width: 1100px;
+  max-width: 100%;
   position: relative;
 }
 .grid:after {
@@ -179,8 +179,13 @@ section.full-height #home-section {
 .grid .width-2 {
   width: 100%;
 }
+.masonry-container {
+  width: 100%;
+}
 .masonry-container .container {
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 #contact-section {
   overflow: auto;
