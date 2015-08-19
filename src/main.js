@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('a[href^="#"]').click(function(e){
         e.preventDefault();
         // console.log(this.hash);
-        $(window).stop(true).scrollTo(this.hash, {duration:1000, interrupt:true, easing:'easeInBack'});
+        $(window).stop(true).scrollTo(this.hash, {duration:750, interrupt:true, easing:'easeInBack'});
     });
 //Stellar
     $('.full-height').stellar();
@@ -22,5 +22,5 @@ $(document).ready(function(){
         columnWidth: '.column-sizer'
     });
 //ScrollSpy
-    $('body').scrollspy({ target: '#navbar', offset: -75 });
+    $('body').scrollspy({ target: '#navbar', offset: 75 });
 });
