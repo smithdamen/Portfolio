@@ -24,53 +24,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.1/jquery.scrollTo.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
-    <!-- scrollTo script w/ easing included-->
-    <script>
-       $(document).ready(function(){
-           $('a[href^="#"]').click(function(e){
-                e.preventDefault();
-                // console.log(this.hash);
-                $(window).stop(true).scrollTo(this.hash, {duration:1000, interrupt:true, easing:'easeInBack'});
-           });
-       });
-    </script>
-    <!-- stellar script -->
-    <script>
-       $('.full-height').stellar();
-    </script>
-    <!-- mixitup script -->
-    <script>
-        $(function(){
-            $('#mix-container').mixItUp();
-        });
-    </script>
-    <!-- lettering script -->
-    <script>
-        $(document).ready(function() {
-            $(".fancy_title").lettering();
-        });
-    </script>
-    <!-- fittext script -->
-    <script>
-        $(document).ready(function() {
-            $("#responsive_headline").fitText();
-        });
-    </script>
-    <!-- masonry script -->
-    <script>
-        $(document).ready(function(){
-            $('.grid').masonry({
-                itemSelector: '.grid-item',
-                percentPosition: true,
-                columnWidth: '.column-sizer'
-            });
-        });
-    </script>
-    <!-- scrollSpy script -->
-    <script>
-        $('body').scrollspy({ target: '#navbar', offset: -75 })
-    </script>
-</head>
+    
+    <script type="text/javascript" src="src/main.js"></script>
 
 <body data-spy="scroll" data-target="#navbar">
 
