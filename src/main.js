@@ -22,5 +22,5 @@ $(document).ready(function(){
         columnWidth: '.column-sizer'
     });
 //ScrollSpy
-    $('body').scrollspy({ target: '#navbar', offset: 75 });
+    $('body').scrollspy({ target: '#navbar', offset: -75 });
 });
