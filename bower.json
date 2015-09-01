@@ -17,5 +17,17 @@
     "fittext": "*",
     "FitText.js": "https://github.com/davatron5000/FitText.js.git#~1.2.0",
     "jquery.scrollTo": "~2.1.1"
-  }
+  },
+  "homepage": "https://github.com/smithdamen/Portfolio",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendors",
+    "test",
+    "tests"
+  ]
 }

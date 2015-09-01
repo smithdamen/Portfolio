@@ -1,4 +1,4 @@
-/vendors
+js/vendors
 .gitignore
 /node_modules
 /install
