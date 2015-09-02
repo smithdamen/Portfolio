@@ -22,8 +22,26 @@ module.exports = function(grunt) {
         //this configures the minify functionality
         uglify: {
             build: {
-                src: 'src/build/master.js',
-                dest: 'src/build/master.min.js'
+                src: "src/build/master.js",
+                dest: "src/build/master.min.js"
+            }
+        },
+        
+        less: {
+            development: {
+                options: {
+                    paths: ["less/"]
+                },
+                files: {
+                    "css/styles.css" : "less/source.less"
+                }
+            }
+        },
+        
+        watch: {
+            less: {
+                files: ['less/*.less'],
+                tasks: ['less']
             }
         }
     });
@@ -32,6 +50,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     //this will load the minify function in grunt
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    //this loads the less plugin
+    grunt.loadNpmTasks('grunt-contrib-less');
+    
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
     grunt.registerTask('default', ['concat']);
@@ -39,5 +61,6 @@ module.exports = function(grunt) {
     grunt.registerTask('dev', ['concat:dev']);
     //this task creates the minified files
     grunt.registerTask('minify', ['concat', 'uglify']);
+    grunt.registerTask('less', ['less']);
 
 };
