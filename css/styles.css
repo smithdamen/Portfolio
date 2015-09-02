@@ -105,6 +105,17 @@ section.full-height #home-section {
   padding-top: 75px;
   padding-bottom: 75px;
 }
+.about-icon i {
+  font-size: 80px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.about-icon i:hover {
+  background-color: #7f5024;
+  color: #ffffff;
+  border: 2px solid #7f5024;
+}
 .about-box {
   text-align: center;
 }
